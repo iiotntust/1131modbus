@@ -12,5 +12,5 @@
 #### 2. PC-to-PC
 1. Configure ModbusSlave on PC#1 for creating registers data
 2. Use PC#2 with ModbusPoll to read the data from PC#1
-#### 2. PC-to-PowerMeter
+#### 3. PC-to-PowerMeter
 1. Use read power meter voltage and current by PC with ModbusPoll
