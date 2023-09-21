@@ -17,8 +17,8 @@ Image of a Powermeter with a current transformer (CT)
 2. Plug-in the USB/RS485 converter (install the USB/RS485 converter driver, CH340 if necessary)
 #### (Optional) Test the converters by connecting one to each end of the communication cable.
 ![Alt text](https://github.com/iiotntust/1121modbus/blob/main/DSC_0388.JPG)
-1. Connect the black conductor to A and the white conductor to B in the USB/RS485 converters terminals.
-2. Connect the conventers to the computer. Two free USB ports are necessary.
+1. Connect the black conductor to A and the white conductor to B in the USB/RS485 converters' terminals.
+2. Connect each conventer to the computer. Two free USB ports are necessary.
 3. Open two Realterm instances and configure each with the appropriate COM port set by the OS.
 4. If the terminals and converters are configured correctly, when text is typed in one terminal,
 5.  it should appear inside the other. Remember to close the RealTerm programs after use as
