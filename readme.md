@@ -1,4 +1,8 @@
-![Alt text](https://github.com/iiotntust/1121modbus/blob/main/DSC_0388.JPG)
+![Alt text](https://github.com/iiotntust/1121modbus/blob/main/DSC_0386.JPG)
+Image of a CT-less Powermeter
+![Alt text](https://github.com/iiotntust/1121modbus/blob/main/DSC_0387.JPG)
+Image of a Powermeter with a current transformer (CT)
+
 ### Modbus Tools and USB/RS485 Converter Driver: (Software)
 * Modbus Tools source: https://www.modbustools.com/ (only 30-day trials)
 * ModbusPoll: install on PC to read the devices in the network via RS485 or LAN.
@@ -12,6 +16,7 @@
 1. Download and install the Modbus tools.
 2. Plug-in the USB/RS485 converter (install the USB/RS485 converter driver, CH340 if necessary)
 #### (Optional) Test the converters by connecting one to each end of the communication cable.
+![Alt text](https://github.com/iiotntust/1121modbus/blob/main/DSC_0388.JPG)
 1. Connect the black conductor to A and the white conductor to B in the USB/RS485 converters terminals.
 2. Connect the conventers to the computer. Two free USB ports are necessary.
 3. Open two Realterm instances and configure each with the appropriate COM port set by the OS.
