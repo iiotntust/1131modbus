@@ -3,7 +3,7 @@
 ### Software required
 * Arduino source: https://www.arduino.cc/
 * Arduino libraries: esp8266_Modbus, Losant, software serial port
-* The Modbus Slave software from the "Modbus folder"
+* The Modbus Slave software from "https://github.com/ClassicDIY/ModbusTool"
 * A Losant Account (can be made for free: https://www.losant.com/)
 
 ### Hands-ON Instruction: 
@@ -22,8 +22,10 @@
 
 #### 3. Configure your Modbus Slave
  1. Plug-in the USB/RS485 converter (install the USB/RS485 converter driver, CH340 if necessary)
- 2. Open up the Modbus Slave program and change the slave definitions to "input register" and two addresses
+ 2. Open up the Modbus Slave program and change the "Start Address" to "30001"
  3. change the Slave ID to 1
- 4. Run the slave using the connect tap in the menu bar.
+ 4. Select RTU mode
+ 5. Run the slave using the "Listen" button in the menu bar.
+ 6. 
   
    
