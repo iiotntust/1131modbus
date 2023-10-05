@@ -10,7 +10,7 @@
 
 #### 1. Install the software and connect the device
 1. Download and install the software.
-2. Download the arduino file and open it on you computers
+2. Download the arduino file and open it on your computers
 
 #### 2. Configure your IIoT platform
 1. Sign into your Losant accounts and add a standalone device
