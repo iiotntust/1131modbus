@@ -33,7 +33,7 @@ Image of a Powermeter with a current transformer (CT)
 ![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
 2. Connection setting
 (<img width="315" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/05386cf5-e2be-4fa9-bdc4-28c1c59fbddc">)
-3. Use ModbusPull read the data from both ( Humi-Temp sensor and Powermeter)
+3. Use ModbusPull read the data from both Humi-Temp sensor and Powermeter
 (<img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">)
 
 
