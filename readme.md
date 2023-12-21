@@ -21,8 +21,7 @@ Image of a Powermeter with a current transformer (CT)
 2. Connect each conventer to the computer. Two free USB ports are necessary.
 3. Open two Realterm instances and configure each with the appropriate COM port set by the OS.
 4. If the terminals and converters are configured correctly, when text is typed in one terminal,
-5.  it should appear inside the other. Remember to close the RealTerm programs after use as
-    they will interfere with other programs will use the converters.
+5. It should appear inside the other. Remember to close the RealTerm programs after use as they will interfere with other programs will use the converters.
 #### 2. First PC-to-PC
 1. Configure ModbusSlave on PC#1 for creating registers data
 2. Use PC#2 with ModbusPoll to read the data from PC#1
@@ -32,8 +31,8 @@ Image of a Powermeter with a current transformer (CT)
 1. wiring and setting (ID:1 Humi-temp sensor, ID:2 Power Meter);Manual can be found in "device_manual", 溫濕度計 and Peacefair電表)
 ![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
 2. Connection setting and reading 
-<img width="315" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/05386cf5-e2be-4fa9-bdc4-28c1c59fbddc">
-(Use ModbusPull read the data from both Humi-Temp sensor and Powermeter)
-<img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">
+![Alt text]<img width="315" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/05386cf5-e2be-4fa9-bdc4-28c1c59fbddc">
+3. Use ModbusPull read the data from both Humi-Temp sensor and Powermeter
+![Alt text]<img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">
 
 
