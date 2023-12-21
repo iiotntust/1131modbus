@@ -31,7 +31,10 @@ Image of a Powermeter with a current transformer (CT)
 #### 4. Add humi-temp sensor into the loop
 1. wiring and setting (ID:1 Humi-temp sensor, ID:2 Power Meter);Manual can be found in "device_manual", Peacefair電表,and 溫濕度計)
 ![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
-3. Use ModbusPull read the data from both
+2. Use ModbusPull read the data from both
+Connection setting
+<img width="315" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/05386cf5-e2be-4fa9-bdc4-28c1c59fbddc">
+Measurement 
 <img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">
 
 
