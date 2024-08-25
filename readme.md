@@ -35,5 +35,5 @@ Image of a Powermeter with a current transformer (CT)
 3. Use ModbusPull read the data from both Humi-Temp sensor and Powermeter
    <img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">.
    
-### Reovery point setting (conduct the setting before you install the software)
+### Recovery point setting (conduct the setting before you install the software)
 https://www.asus.com/tw/support/faq/1018810/#Win11
