@@ -37,3 +37,7 @@ Image of a Powermeter with a current transformer (CT)
    
 ### Recovery point setting (conduct the setting before you install the software)
 https://www.asus.com/tw/support/faq/1018810/#Win11
+
+### RS485 to TTL 
+- Reference https://forum.arduino.cc/t/how-to-read-rs485-data-in-arduino/673285![image](https://github.com/user-attachments/assets/d030e8d1-3471-4515-974a-bb41fa4f1f36)
+
