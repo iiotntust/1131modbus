@@ -26,6 +26,9 @@
  3. change the Slave ID to 1
  4. Select RTU mode
  5. Run the slave using the "Listen" button in the menu bar.
- 6. 
+
+## RS485 - Arduino
+- RS485 to TTL :https://forum.arduino.cc/t/how-to-read-rs485-data-in-arduino/673285
+
   
    
