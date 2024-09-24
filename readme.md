@@ -5,6 +5,8 @@ Image of a Powermeter with a current transformer (CT)
 
 ### Modbus Tools and USB/RS485 Converter Driver: (Software)
 * Modbus Tools source: https://www.modbustools.com/ (only 30-day trials)
+  #### Recovery point setting (conduct the setting before you install the software)
+  * https://www.asus.com/tw/support/faq/1018810/#Win11
 * ModbusPoll: install on PC to read the devices in the network via RS485 or LAN.
 * ModbusSlave: install on PC to simulate a device with Modbus Protocols (Modbus/RTU, TCP)
 * Modbustool.7z: executable file (.exe), unlimited time to use, but Chinese GUI only
@@ -35,8 +37,7 @@ Image of a Powermeter with a current transformer (CT)
 3. Use ModbusPull read the data from both Humi-Temp sensor and Powermeter
    <img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">.
    
-### Recovery point setting (conduct the setting before you install the software)
-- https://www.asus.com/tw/support/faq/1018810/#Win11
+
 ### RS485-TTL Arduino
 - https://forum.arduino.cc/t/how-to-read-rs485-data-in-arduino/673285!
 - [image](https://github.com/user-attachments/assets/924b7c92-46ef-43ff-b9de-5a78256ec6c5)
