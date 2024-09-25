@@ -49,7 +49,7 @@ Image of a Powermeter with a current transformer (CT)
    
 
 
-##### Additional: more detail about how to change ID and read register
+#### Additional: more detail about how to change ID and read register
 ### RS485-TTL Arduino
 - https://forum.arduino.cc/t/how-to-read-rs485-data-in-arduino/673285!
 - [image](https://github.com/user-attachments/assets/924b7c92-46ef-43ff-b9de-5a78256ec6c5)
