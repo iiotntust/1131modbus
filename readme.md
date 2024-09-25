@@ -17,7 +17,7 @@ Image of a Powermeter with a current transformer (CT)
 #### 1. Install the software and connect the device
 1. Download and install the Modbus tools.
 2. Plug-in the USB/RS485 converter (install the USB/RS485 converter driver, CH340 if necessary)
-#### (Optional) Test the converters by connecting one to each end of the communication cable.
+#### (Optional) Test the converters by connecting one to each end of the communication cable.  
 ![Alt text](https://github.com/iiotntust/1121modbus/blob/main/DSC_0388.JPG)
 1. Connect the black conductor to A and the white conductor to B in the USB/RS485 converters' terminals.
 2. Connect each conventer to the computer. Two free USB ports are necessary.
@@ -29,27 +29,32 @@ Image of a Powermeter with a current transformer (CT)
 - Making modbus poll can recognize they are different device.
 - Before we adjusting the meter's ID, notice that we can only change device's ID by one master and one slave at the same environment.
 - In this hands-on, we chose to change power meter's ID from one to ten.(All device are default ID1)
-1. Follow the scamatic here:
-(picture)
+1. Follow the scamatic here:  
+![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/slaveID_adjust.png)
 2. Check meter's manual, find which register is refer to RTU address.(Hint: adjust modbus-RTU address)
 3. Find which fuction code should we use.(Hint: writing register)
-#### 3. wiring the USB to RS485 convertor connection with temp./humi. sensor and power meter.
-![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
-- Follow the scamatic here:
-(picture)
 #### (Optional) PC-to-PowerMeter
 1. Use read power meter voltage and current by PC with ModbusPoll
+#### 3. wiring the USB to RS485 convertor connection with temp./humi. sensor and power meter.  
+![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
+- Follow the scamatic here:  
+![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/senser_meter.png)
 #### 4. Read data of both humi-temp sensor and powermeter
 1. wiring and setting (ID:1 humi./temp. sensor, ID:10 Power Meter);Manual can be found in "device_manual", 溫濕度計 and Peacefair電表)
-* Be aware of we use different fuction code to det register's data from humi./temp. sensor and power meter.
-2. Connection setting and reading
-    <img width="315" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/05386cf5-e2be-4fa9-bdc4-28c1c59fbddc">.
-3. Use ModbusPull read the data from both Humi-Temp sensor and Powermeter
-    <img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">.
-   
-
-
+* Be aware of we use different fuction code to set register's data from humi./temp. sensor and power meter.
+2. Connection setting and reading  
+![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/1.png)
+3. Use ModbusPull read the data from both Humi-Temp sensor and Powermeter  
+![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/6.png)
 #### Additional: more detail about how to change ID and read register
+1. Where is the function code in the meter's manual?(for writing register)  
+![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/2.png)
+2. Where the address in the meter's manual if you want to modify the salve address?  
+![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/3.png)
+3. Where is the function code in the meter's manual?(for reading register)  
+![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/4.png)
+4. How to set the "read definition" function to read the power meter's register?
+![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/5.png)
 ### RS485-TTL Arduino
 - https://forum.arduino.cc/t/how-to-read-rs485-data-in-arduino/673285!
 - [image](https://github.com/user-attachments/assets/924b7c92-46ef-43ff-b9de-5a78256ec6c5)
