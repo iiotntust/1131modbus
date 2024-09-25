@@ -24,14 +24,24 @@ Image of a Powermeter with a current transformer (CT)
 3. Open two Realterm instances and configure each with the appropriate COM port set by the OS.
 4. If the terminals and converters are configured correctly, when text is typed in one terminal,
 5. It should appear inside the other. Remember to close the RealTerm programs after use as they will interfere with other programs will use the converters.
-#### 2. First PC-to-PC
-1. Configure ModbusSlave on PC#1 for creating registers data
-2. Use PC#2 with ModbusPoll to read the data from PC#1
+#### 2. change the slave's ID
+- Because we have two slaves, so we need to change ID first.
+- Making modbus poll can recognize they are different device.
+- Before we adjusting the meter's ID, notice that we can only change device's ID by one master and one slave at the same environment.
+- In this hands-on, we chose to change power meter's ID from one to ten.(All device are default ID1)
+1. Follow the scamatic here:
+(picture)
+2. Check meter's manual, find which register is refer to RTU address.(Hint: adjust modbus-RTU address)
+3. Find which fuction code should we use.(Hint: writing register)
+#### 3. wiring the USB to RS485 convertor connection with temp./humi. sensor and power meter.
+![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
+- Follow the scamatic here:
+(picture)
 #### 3. PC-to-PowerMeter
 1. Use read power meter voltage and current by PC with ModbusPoll
 #### 4. Read data of both humi-temp sensor and powermeter
-1. wiring and setting (ID:1 Humi-temp sensor, ID:2 Power Meter);Manual can be found in "device_manual", 溫濕度計 and Peacefair電表)
-![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
+1. wiring and setting (ID:1 Humi-temp sensor, ID:10 Power Meter);Manual can be found in "device_manual", 溫濕度計 and Peacefair電表)
+
 2. Connection setting and reading 
    <img width="315" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/05386cf5-e2be-4fa9-bdc4-28c1c59fbddc">.
 3. Use ModbusPull read the data from both Humi-Temp sensor and Powermeter
