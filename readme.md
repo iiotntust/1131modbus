@@ -37,17 +37,19 @@ Image of a Powermeter with a current transformer (CT)
 ![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
 - Follow the scamatic here:
 (picture)
-#### 3. PC-to-PowerMeter
+#### (Optional) PC-to-PowerMeter
 1. Use read power meter voltage and current by PC with ModbusPoll
 #### 4. Read data of both humi-temp sensor and powermeter
-1. wiring and setting (ID:1 Humi-temp sensor, ID:10 Power Meter);Manual can be found in "device_manual", 溫濕度計 and Peacefair電表)
-
-2. Connection setting and reading 
-   <img width="315" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/05386cf5-e2be-4fa9-bdc4-28c1c59fbddc">.
+1. wiring and setting (ID:1 humi./temp. sensor, ID:10 Power Meter);Manual can be found in "device_manual", 溫濕度計 and Peacefair電表)
+* Be aware of we use different fuction code to det register's data from humi./temp. sensor and power meter.
+2. Connection setting and reading
+    <img width="315" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/05386cf5-e2be-4fa9-bdc4-28c1c59fbddc">.
 3. Use ModbusPull read the data from both Humi-Temp sensor and Powermeter
-   <img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">.
+    <img width="610" alt="image" src="https://github.com/iiotntust/1121modbus/assets/56021651/a6ed6a19-ab37-4838-aa27-eb7162716de0">.
    
 
+
+##### Additional: more detail about how to change ID and read register
 ### RS485-TTL Arduino
 - https://forum.arduino.cc/t/how-to-read-rs485-data-in-arduino/673285!
 - [image](https://github.com/user-attachments/assets/924b7c92-46ef-43ff-b9de-5a78256ec6c5)
