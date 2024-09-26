@@ -32,8 +32,8 @@ Image of a Powermeter with a current transformer (CT)
 1. Follow the scamatic here:  
 ![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/slaveID_adjust.png)
 2. Check meter's manual, find which register is refer to RTU address.(Hint: adjust modbus-RTU address)
-- `**Notice that before you modify your ID, make sure you are reading right definition(for meter is input register),serial setting have to set None parity and meter should connect with power supply.**`
-- `**Otherwise you won't see the responce OK but you still can modify ID**`
+- **Notice that before you modify your ID, make sure you are reading right definition(for meter is input register),serial setting have to set None parity and meter should connect with power supply.**
+- **Otherwise you won't see the responce OK but you still can modify ID**
 3. Find which fuction code should we use.(Hint: writing register)
 #### (Optional) PC-to-PowerMeter
 1. Use read power meter voltage and current by PC with ModbusPoll
