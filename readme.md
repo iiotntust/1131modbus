@@ -29,7 +29,7 @@ Image of a Powermeter with a current transformer (CT)
 - Making modbus poll can recognize they are different device.
 - Before we adjusting the meter's ID, notice that we can only change device's ID by one master and one slave at the same environment.
 - In this hands-on, we chose to change power meter's ID from one to ten.(All device are default ID1)
-1. Follow the scamatic here:  
+1. Follow the schematic here:  
 ![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/slaveID_adjust.png)
 2. Check meter's manual, find which register is refer to RTU address.(Hint: adjust modbus-RTU address)
 > [!CAUTION]
@@ -40,7 +40,7 @@ Image of a Powermeter with a current transformer (CT)
 1. Use read power meter voltage and current by PC with ModbusPoll
 #### 3. wiring the USB to RS485 convertor connection with temp./humi. sensor and power meter.  
 ![S__88981511](https://github.com/iiotntust/1121modbus/assets/56021651/3f29d30f-97e3-4a5a-bf7d-8fee5a503cb7)
-- Follow the scamatic here:  
+- Follow the schematic here:  
 ![image](https://github.com/iiotntust/1121modbus/blob/b70c1803ebb63e15933e1eb40781c30892abbe2b/picture/senser_meter.png)
 #### 4. Read data of both humi-temp sensor and powermeter
 1. wiring and setting (ID:1 humi./temp. sensor, ID:10 Power Meter);Manual can be found in "device_manual", 溫濕度計 and Peacefair電表)
